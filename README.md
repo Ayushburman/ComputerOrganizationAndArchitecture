@@ -145,13 +145,13 @@ Before diving deep into hardware, ensure you have:
   - SSD internals: NAND flash, wear leveling, Flash Translation Layer (FTL).
   - Memory consistency basics across buses.
 
-> 🛠️ **Milestone Project:** Implement a virtual DMA controller in a software emulator to offload memory copying from your simulated CPU.
+ **Milestone Project:** Implement a virtual DMA controller in a software emulator to offload memory copying from your simulated CPU.
 
 ---
 
 ### Phase 6: Instruction-Level Parallelism (ILP) & High Performance
 *Pushing the limits of single-core performance.*
-
+l
 - **Dynamic Branch Prediction:**
   - 1-bit, 2-bit saturating counters.
   - Two-level adaptive branch predictors, Gshare, TAGE predictor.
@@ -233,9 +233,7 @@ Choose one major project to validate your mastery:
 - [ ] **Phase 7:** MESI Protocol, SIMD, GPU Architecture basics.
 - [ ] **Capstone:** Complete one major project (Emulator / FPGA Core / Cache Simulator).
 ```
->
->
->
+
 >
 >
 >
