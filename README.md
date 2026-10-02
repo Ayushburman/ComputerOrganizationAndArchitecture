@@ -234,7 +234,7 @@ Choose one major project to validate your mastery:
 - [ ] **Capstone:** Complete one major project (Emulator / FPGA Core / Cache Simulator).
 ```
 
->
+
 >
 >
 >
