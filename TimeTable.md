@@ -1,4 +1,5 @@
 **COA – 30-Day Plan (3–4 hrs/day)**
+
 Daily split: 1.5–2 hrs theory, 1.5–2 hrs PYQs/practice.
 
 | Day | Topic |
