@@ -7,7 +7,7 @@ Daily split: 1.5–2 hrs theory, 1.5–2 hrs PYQs/practice.
 | 1 | Machine instructions, addressing modes                |
 | 2 | Instruction formats, ISA types (RISC/CISC)            |
 | 3 | Practice: addressing modes and instruction formats    |
-| 4 | CPU datapath, control unit basics |
+| 4 | CPU datapath, control unit basics                     |
 | 5 | Hardwired vs microprogrammed control |
 | 6 | Practice: control unit and datapath |
 | 7 | Revision and mixed PYQs |
