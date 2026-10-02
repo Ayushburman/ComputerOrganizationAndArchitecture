@@ -36,3 +36,5 @@ Daily split: 1.5–2 hrs theory, 1.5–2 hrs PYQs/practice.
 | 30 | Final revision and timed mock test |
 
 **Tips:** Keep an error log. Prioritize cache, pipelining, and IEEE 754 for weightage.
+
+
