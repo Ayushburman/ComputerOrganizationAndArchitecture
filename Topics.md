@@ -1,6 +1,7 @@
 # COA Cheat Sheet (GATE 2027)
 
 ## 1. Performance
+
 - CPU time = IC × CPI × T = IC × CPI / f
 - MIPS = f / (CPI × 10⁶)
 - Amdahl: S = 1 / [(1−F) + F/s]
