@@ -34,6 +34,7 @@
 - Non-restoring division: no restore step, so it is faster
 
 ## 4. Instruction Set
+
 - **Address formats:** 0-address (stack), 1-address (accumulator), 2-address, 3-address (RISC)
 - **Expanding opcode:** count the unused codes at each level, and multiply by 2^(extra bits) for the next level
 - **Addressing modes** (effective address):
