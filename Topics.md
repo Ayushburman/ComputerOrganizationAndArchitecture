@@ -61,6 +61,7 @@
 - Nanoprogramming: a two-level control store
 
 ## 6. Pipelining
+
 - k stages, n instructions: time = (k + n − 1) × t
 - Speedup = n·k / (k + n − 1), which tends to k as n grows
 - Non-pipelined time uses the sum of all stage delays; the pipeline clock uses the **max stage delay + latch delay**
