@@ -87,6 +87,7 @@ Maximum possible speedup:
 
 ---
 
+
 ## Weighted CPI
 
 \[
