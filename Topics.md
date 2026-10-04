@@ -8,6 +8,7 @@
 - Weighted CPI = Σ(fraction × CPI)
 
 ## 2. Number Representation
+
 - n-bit 2's complement: −2ⁿ⁻¹ to 2ⁿ⁻¹−1
 - 1's complement and sign-magnitude: −(2ⁿ⁻¹−1) to +(2ⁿ⁻¹−1), with two zeros
 - Signed overflow: carry into MSB ≠ carry out of MSB
