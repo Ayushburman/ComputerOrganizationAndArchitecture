@@ -24,6 +24,7 @@
   - Single range: about ±3.4×10³⁸, max E = 254
 
 ## 3. ALU and Arithmetic
+
 - Ripple carry delay = n × gate delay
 - Carry-lookahead: Gᵢ = AᵢBᵢ, Pᵢ = Aᵢ⊕Bᵢ, Cᵢ₊₁ = Gᵢ + PᵢCᵢ
 - Full adder: Sum = A⊕B⊕C, Carry = AB + BC + CA
