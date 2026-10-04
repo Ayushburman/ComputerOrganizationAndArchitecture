@@ -2014,6 +2014,7 @@ MASTERy
 ```
 
 > ### 🧠 COA Rule
+
 > **Don't memorize the architecture. Understand it.**
 >
 > Once the architecture is clear, the formulas, numerical patterns, and GATE traps become much easier to remember.
