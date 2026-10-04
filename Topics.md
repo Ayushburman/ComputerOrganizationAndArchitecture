@@ -75,6 +75,7 @@
 - Branch handling: stall, predict not taken, delayed branch, dynamic prediction
 
 ## 7. Memory Hierarchy
+
 - Locality: temporal and spatial
 - **Average access time (hierarchical / sequential):** T = H·T₁ + (1−H)(T₁ + T₂)
 - **Simultaneous:** T = H·T₁ + (1−H)·T₂
