@@ -134,4 +134,77 @@
 - 2's complement −(2ⁿ⁻¹) has no positive counterpart
 - Stalls: count cycles per instruction, then CPI = 1 + stalls
 
-If you want, I can add a PYQ-pattern section or numericals for any one topic.
+-----------------------------------------------------------------------------------------------
+1
+Performance
+T = IC × CPI / f
+MIPS = f / (CPI × 10⁶)
+S = 1 / [(1−F) + F/s]
+Weighted CPI = Σ fraction × CPI
+2
+Number representation
+2's comp: −2ⁿ⁻¹ … 2ⁿ⁻¹−1
+Signed ovf: carry in ≠ carry out of MSB
+Single: 1 | 8 | 23, bias 127
+Double: 1 | 11 | 52, bias 1023
+E=0 denormal (no implicit 1), E=all 1s: ∞ / NaN
+3
+ALU and arithmetic
+Ripple carry delay = n × gate delay
+Cᵢ₊₁ = Gᵢ + PᵢCᵢ, G=AB, P=A⊕B
+Radix-4 Booth: n/2 partial products
+Non-restoring division: no restore step
+4
+Instruction set
+Direct EA=A, Indirect EA=M[A]
+Indexed A+Index, Base A+Base
+Relative EA = PC + A (PC already +1)
+RISC: load/store, fixed length, hardwired
+CISC: variable length, microprogrammed
+5
+Control unit
+Horizontal: wide, fast, big store
+Vertical: encoded, slower, small store
+Vertical bits = Σ log₂(group size)
+Store size = microinstructions × width
+6
+Pipelining
+IF
+ID
+EX
+MEM
+WB
+Time = (k + n − 1) × t
+Speedup = nk / (k + n − 1) → k
+Clock = max stage + latch delay
+Hazards: structural, data (RAW), control
+Load-use stall: 1 cycle even with forwarding
+7
+Memory and cache
+Offset = log₂(block), Index = log₂(sets)
+Tag = address bits − index − offset
+Sets = lines / k
+Sequential: H·T₁ + (1−H)(T₁+T₂)
+Simultaneous: H·T₁ + (1−H)·T₂
+AMAT = T₁ + m₁(T₂ + m₂·T₃)
+Misses: compulsory, capacity, conflict
+8
+Disk
+Access = seek + rotation + transfer
+Avg rotational latency = ½ rotation
+Transfer = data / (track size × RPS)
+Capacity = surfaces × tracks × sectors × bytes
+9
+I/O and DMA
+Programmed: CPU polls, always busy
+Interrupt: CPU free until request
+DMA burst: holds bus for whole block
+Cycle stealing: one cycle at a time
+Transparent: uses idle cycles only
+10
+GATE traps
+MHz vs GHz, ns vs µs
+Bits vs bytes, word vs byte addressable
+Hit ratio vs miss ratio
+Cache total size: add valid + dirty bits
+CPI = 1 + stalls per instruction
