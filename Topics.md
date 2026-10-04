@@ -123,6 +123,7 @@
 - Synchronous bus: common clock. Asynchronous bus: handshake.
 
 ## 10. Common GATE Traps
+
 - Check whether the clock is in MHz or GHz and whether time is in ns, µs, or ms
 - Memory size in bits vs bytes, and word-addressable vs byte-addressable
 - Relative addressing: PC already points to the next instruction
