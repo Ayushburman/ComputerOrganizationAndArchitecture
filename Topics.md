@@ -51,6 +51,7 @@
 - **CISC:** variable length, memory operands, microprogrammed control
 
 ## 5. Control Unit
+
 - **Hardwired:** fast, rigid, used in RISC
 - **Microprogrammed:** flexible, slower, used in CISC
 - **Horizontal:** wide microinstruction, little encoding, more parallelism, faster, large control store
