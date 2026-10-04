@@ -198,6 +198,7 @@ For unsigned addition:
 
 # Sign Extension
 
+
 When increasing the number of bits in 2's complement:
 
 ```text
