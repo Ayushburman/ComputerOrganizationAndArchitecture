@@ -70,6 +70,7 @@ Where:
 
 ## Amdahl's Law
 
+
 If fraction `F` is improved by factor `s`:
 
 \[
