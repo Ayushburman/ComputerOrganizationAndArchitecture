@@ -59,6 +59,7 @@ Where:
 
 ## MIPS
 
+
 \[
 \boxed{MIPS=\frac{f}{CPI\times10^6}}
 \]
