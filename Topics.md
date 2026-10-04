@@ -368,6 +368,7 @@ Processes approximately 2 multiplier bits per iteration.
 
 For `n` bits:
 
+
 \[
 \boxed{\text{Partial Products}\approx\frac n2}
 \]
