@@ -101,6 +101,7 @@
 - Page table entry bits: frame number + valid/dirty/protection bits
 
 ## 8. Secondary Storage (Disk)
+
 - Capacity = surfaces × tracks × sectors × bytes per sector
 - Access time = seek + rotational latency + transfer
 - Average rotational latency = ½ rotation time = 0.5 / RPS
