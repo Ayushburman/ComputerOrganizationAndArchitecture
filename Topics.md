@@ -1,4 +1,3 @@
-Absolutely — I merged **both versions**, kept the additional high-value points from this second sheet, removed duplication, and organized it as a single **GATE 2027 COA master README**.
 
 # 🖥️ Computer Organization & Architecture — GATE CSE 2027
 
